@@ -52,6 +52,10 @@
     <Compile Include="AdminMenu\AdminMenu.Designer.cs">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminMenu\AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMenu\AdminMenu.Designer.cs" />
     <Compile Include="MakeAppointment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +91,7 @@
     <EmbeddedResource Include="AdminMenu\AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminMenu\AdminMenu.resx" />
     <EmbeddedResource Include="MakeAppointment.resx">
       <DependentUpon>MakeAppointment.cs</DependentUpon>
     </EmbeddedResource>
